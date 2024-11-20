@@ -11,7 +11,6 @@ public class Factorial {
             res= res*i;
         }
         System.out.println("Factorial of "+n+" is "+res);
-	    System.out.println("Program Completed");
         scan.close();
 }
 }
