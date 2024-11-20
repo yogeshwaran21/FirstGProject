@@ -7,7 +7,8 @@ public class Factorial {
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
         int res=1;
-        for(int i=1;i<=n;i++){
+        int i;
+        for(i=1;i<=n;i++){
             res= res*i;
         }
         System.out.println("Factorial of "+n+" is "+res);
